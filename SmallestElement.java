@@ -13,7 +13,7 @@ public class SmallestElement
 	   arr[i]=sc.nextInt();
 	}
 	int small=arr[0];
-	for(int i=1;i<size-1;i++)
+	for(int i=1;i<size;i++)
 	{
 	    if(arr[i]<small)
 	    {
